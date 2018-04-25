@@ -26,7 +26,7 @@ describe('User', function() {
         .json()
         .get('/users/1')
         .expectStatus(200)
-        .expectValue('firstname', 'new')
+        .expectValue('firstname', 'Test')
         .end(function(err, res, body) {
           if (err) throw err;
           done();
