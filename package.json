@@ -1,0 +1,24 @@
+{
+  "name": "assets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "pg": "^7.4.1",
+    "restify": "^7.1.1",
+    "sequelize": "^4.37.6"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "hippie": "^0.5.1",
+    "mocha": "^5.1.1",
+    "nodemon": "^1.17.3"
+  }
+}
